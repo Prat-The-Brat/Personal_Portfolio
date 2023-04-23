@@ -1,33 +1,40 @@
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FiInstagram } from 'react-icons/fi';
+
+
+
+
 
 const Footer = () => {
   return (
     <>
-    <div>
-        <p className="text-secondary text-center ">made with 💜 by Pratham</p>
-        <div className="text-secondary text-cener">
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
-          </a>
-        </div>
+    <p className="text-secondary text-center ">made with 💜 by Pratham <br /></p>
+    <div className="flex justify-center">
+    <div className="flex flex-col my-auto items-center">
+      <a href="https://github.com/Prat-The-Brat" className="flex social"><FaGithub/></a>
     </div>
+    <div className="flex flex-col my-auto items-center">
+    <a href="https://www.linkedin.com/in/pratham-bhonge-2a131a232/" className="flex social"><FaLinkedinIn/></a>
+      </div>
+
+      <div className="flex flex-col my-auto items-center">
+      <a href="https://twitter.com/BhongePratham" className="flex social"><FaTwitter/></a>
+      </div>
+
+      <div className="flex flex-col my-auto items-center">
+      <a href="https://www.instagram.com/prat.the.brat/" className="flex social"><FiInstagram/></a>
+      </div>
+
+      </div>
+
+    
     
     </>
   )

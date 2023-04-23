@@ -1,0 +1,9 @@
+.social-handle-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .social-handle-item {
+    margin: 10px;
+  }
+  
