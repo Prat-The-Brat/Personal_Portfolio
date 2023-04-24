@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Structures and Algorithms",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Machine Learning and AI",
       icon: backend,
     },
     {
