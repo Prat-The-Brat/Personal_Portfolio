@@ -38,7 +38,13 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "resume",
+      title: "Resume",
+      external: true, // Indicate that this link is external
+    },
   ];
+  
   
   const services = [
     {
