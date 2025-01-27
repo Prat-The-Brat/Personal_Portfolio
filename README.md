@@ -3,7 +3,7 @@
 ## Description
 
 This is a personal portfolio website made using three.js by Pratham Bhonge.
-Find the website live at https://bhonge.me
+Find the website live at https://bhonge.netlify.app
 
 
 ## Available Scripts
